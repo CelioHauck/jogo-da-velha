@@ -1,7 +1,23 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
   }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }   
+
+html, body, #root {
+    height: 100vh;
+  }
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
   
   ol, ul {
     padding-left: 30px;
